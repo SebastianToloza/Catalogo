@@ -1,3 +1,10 @@
+.Rojo{
+    background-color: rgb(252, 154, 154);
+}
+.Rosa{
+    background-color: rgb(255, 193, 227);
+}
+
 #Catalogo{
     border: 3px solid;
     width: 100%;
