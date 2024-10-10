@@ -8,7 +8,7 @@
 #Catalogo{
     border: 3px solid;
     width: 100%;
-    height: 38.6em;
+    height: 96vh;
     display: flex;
     flex-direction: column;
 }
@@ -23,14 +23,59 @@
 #Encabezado #Botones{
     display: flex;
     flex-direction: row;
-    width: 30%;   
+    width: 35%;   
     height: 20% ; 
     align-self: flex-end;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
 }
 #Botones .Primarios{
+    display: flex;
+    justify-content: center;
     width: 25%;
-    height: 100%;
+    height: 25%;
+    margin-right: 3%;
+    padding: 1.5% 2.5% 3.5% 2.5%;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: hsl(0, 7%, 68%);
+    transition: all 1000ms;
+    font-size: 12px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #000000;
 }
+  
+  .Primarios:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #555555;
+    box-shadow: 4px 5px 17px -4px #bcbcbc;
+  }
+  
+  .Primarios::before {
+    color: #ffffff;
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #141414;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  .Primarios:hover::before {
+    width: 250%;
+  }
+  
+
+
 #Encabezado #Titulo{
     width: 40%;
     height: 100%;
@@ -41,7 +86,7 @@
     top: 20%;
 }
 #Encabezado #Logo{
-    width: 30%;
+    width: 25%;
     height: 100%;
 }
 #Logo img{
