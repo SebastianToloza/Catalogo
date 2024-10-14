@@ -1,16 +1,10 @@
     @media all and (min-width:300px) and (max-width:500px) {
-    body {
-        background-color: red;
-    }
-
     #Catalogo {
         border: 3px solid;
         width: 100vw;
-        height: 100em;
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        background-color: blue;
-
     }
 
     #Catalogo #Encabezado {
@@ -18,7 +12,6 @@
         flex-direction: column;
         width: 100%;
         height: 10%;
-        border-bottom: 1px solid;
     }
 
     #Encabezado #Botones {
@@ -34,19 +27,27 @@
     }
 
     #Encabezado #Titulo {
-        width: 100%;
         height: 40%;
-        
+        width: 100%;
     }
+    #Titulo p{
+        font-weight: bold;
+        text-align: center;
+        font-size: 100%;
+
+    }
+    
 
     #Encabezado #Logo {
         width: 100%;
         height: 30%;
+        
     }
 
     #Logo img {
         width: 100%;
         height: 100%;
+        
     }
 
 
@@ -60,31 +61,36 @@
         border-bottom: 1px solid;
     }
 
+
     #Contenido #Izquierda {
-        height: 100%;
-        width: 20%;
+        height: 50%;
+        width: 100%;
         overflow: scroll;
         overflow-x: hidden;
-        border-right: 1px solid;
     }
 
     #Izquierda iframe {
         width: 100%;
+        
     }
 
     #Izquierda #Botones {
         display: flex;
         flex-direction: column;
+
     }
 
     #Botones .Secundarios {
         width: 100%;
-        height: 100px;
+        height: 100%;
+
     }
 
     #Contenido #Derecha {
-        width: 80%;
-        height: 100%;
+        width: 98%;
+        height: 50%;
+        overflow: scroll;   
+        border: 4px solid black;
 
     }
 
