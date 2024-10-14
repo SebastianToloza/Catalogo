@@ -87,7 +87,7 @@
     }
 
     #Contenido #Derecha {
-        width: 98%;
+        width: 99%;
         height: 50%;
         overflow: scroll;   
         border: 4px solid black;
@@ -119,6 +119,7 @@
 
     #Derecha #Seleccion {
         overflow: scroll;
+        width: 100%;
         height: 77%;
         display: flex;
         flex-direction: column;
@@ -138,9 +139,6 @@
     #Seleccion #Boton {
         width: 40%;
         margin-top: 1%;
-        position: relative;
-        left: 27.5%;
-
     }
 
     /*---------------------------------------------------------------------------------*/
