@@ -1,0 +1,235 @@
+
+@media all and (min-width:300px) and (max-width:500px){
+
+    #Catalogo {
+        border: none;
+        width: 100%;
+        height: 150vh;
+        display: flex;
+
+        border: 1px solid;
+
+        flex-direction: column;
+    }
+
+    #Catalogo #Encabezado {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 20%;
+    }
+
+    #Encabezado #Botones {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        left: 1%;
+        width: 100%;
+        height: 15%;
+    }
+
+    #Botones .Primarios {
+        width: 20%;
+        height: 80%;
+    }
+
+    #Encabezado #Titulo {
+        height: 40%;
+        width: 100%;
+    }
+
+    #Titulo p{
+
+    #Titulo h1{
+        font-weight: bold;
+        text-align: center;
+        font-size: 100%;
+
+    }
+    
+
+    #Encabezado #Logo {
+        width: 100%;
+        height: 30%;
+        
+    }
+
+    #Logo img {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+
+    /*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+    #Catalogo #Contenido {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid;
+    }
+
+
+    #Contenido #Izquierda {
+        border: none;
+        height: 50%;
+        width: 100%;
+        overflow: none;
+        overflow: hidden;
+    }
+
+    #Izquierda iframe {
+        width: 100%;
+        height: 30%;
+        
+    }
+
+    #Izquierda #Botones {
+        height: 40%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #Botones .Secundarios {
+        width: 100%;
+        height: 18%;
+
+    }
+
+    #Contenido #Derecha {
+        width: 99%;
+        height: 50%;
+        overflow: scroll;   
+       
+
+    }
+
+    #Derecha #Botones {
+        width: 100%;
+        height: 8%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #Botones .SecundariosFin {
+        width: 19.5%;
+        height: 100%;
+    }
+
+    #Derecha #TitCatalogo {
+        width: 100%;
+        height: 10%;
+        border-bottom: 1px solid;
+    }
+
+    #TitCatalogo h2 {
+        text-align: center;
+    }
+
+    #Derecha #Seleccion {
+        overflow: scroll;
+        width: 100%;
+        height: 77%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Seleccion #Tabla {
+        border: 2px solid;
+        width: 45%;
+        height: 140%;
+        margin-top: 2%;
+    }
+
+
+    #Seleccion .productos{
+        display: flex;
+        justify-content:space-between;
+        background-color: aliceblu;
+        width: 30%;
+        height: 150%;
+        margin-top: 2%;
+    }
+
+    .productos:hover{
+        border: 2px solid;
+    }
+
+    #producto1 #foto{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    #Tabla td {
+        border: 2px solid;
+    }
+
+    #Seleccion #Boton {
+        width: 40%;
+        margin-top: 1%;
+    }
+
+    /*---------------------------------------------------------------------------------*/
+    #Catalogo #Pie {
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(44, 44, 44);
+    }
+
+    #Pie p {
+        height: 70%;
+        color: hwb(33 83% 0%);
+    }
+
+    #Pie #Botones {
+
+        height: 30%;
+        position: relative;
+    }
+
+    #Botones .Terciarios {
+        position: relative;
+        top: 0%;
+    }
+
+    .imagen-volteada {
+        transform: scaleX(-1);
+        position: relative;
+        left: 0%;
+        opacity: 1;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: both;
+        animation-play-state: running;
+        width: 100px;
+        position: relative;
+        animation: mover 10s infinite;
+        height: 100%;
+    }
+    
+    @keyframes mover {
+        0%{
+            transform: scaleX(-1);
+            
+            
+            opacity: 1;
+        }
+        50%,100%{
+            left: 75%;
+    
+        }
+    }
+}
+}
