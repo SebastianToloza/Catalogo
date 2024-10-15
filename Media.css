@@ -1,6 +1,6 @@
     @media all and (min-width:300px) and (max-width:500px) {
     #Catalogo {
-        border: 3px solid;
+        border: none;
         width: 100vw;
         height: 150vh;
         display: flex;
@@ -18,7 +18,7 @@
         display: flex;
         flex-direction: row;
         width: 100%;
-        height: 30%;
+        height: 15%;
     }
 
     #Botones .Primarios {
@@ -90,7 +90,7 @@
         width: 99%;
         height: 50%;
         overflow: scroll;   
-        border: 4px solid black;
+       
 
     }
 
