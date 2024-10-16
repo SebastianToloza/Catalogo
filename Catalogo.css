@@ -1,7 +1,7 @@
 #Catalogo{
     border: 3px solid;
     width: 100%;
-    height: 38.6em;
+    height: 100vh   ;
     display: flex;
     flex-direction: column;
 }
@@ -10,7 +10,7 @@
     justify-content: space-between;
     flex-direction: row;
     width:100%;
-    height: 20%;
+    height: 15%;
     border-bottom: 1px solid;
 }
 
@@ -217,7 +217,7 @@
 
 /*---------------------------------------------------------------------------------*/
 #Catalogo #Pie{
-    height: 100%;
+    height: 6.5%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -229,7 +229,7 @@
     color: hwb(33 83% 0%);
 }
 #Pie #Botones{
-    height: 100%;
+    height: 100%; 
     position: relative;
 }
 #Botones .Terciarios{
