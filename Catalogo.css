@@ -109,10 +109,12 @@
     width: 40%;
     height: 100%;
 }
-#Titulo h1{
+#Titulo p{
     position: relative;
-    left: 25%;
-    top: 20%;
+    left: 40%;
+    top: 5%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
 }
 #Encabezado #Logo{
     width: 30%;
